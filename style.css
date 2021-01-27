@@ -1,0 +1,186 @@
+*{
+    outline: 1px dotted blue;    /*visualize*/
+    /*reset styling*/
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.container{
+    background: #604D57;
+    background: -moz-radial-gradient(center, #604D57 0%, #6F5964 58%, #28171D 100%);
+    background: -webkit-radial-gradient(center, #604D57 0%, #6F5964 58%, #28171D 100%);
+    background: radial-gradient(ellipse at center, #604D57 0%, #6F5964 58%, #28171D 100%);    width: 940px;
+    width: 940px;
+    margin:auto;
+}
+
+/*Header*/
+header {
+    align-items:center;
+    background-color: #f5f5f5;
+    height: 50px;
+    font-weight: bold;
+}
+    .name{
+        display: inline-block;
+        text-align:left;
+        padding: 0px 0px 20px 20px;
+        width: 450px;
+        height: 30px;
+        font-size: 30px;
+        font-family: cursive;
+    }
+    .description{
+        display: inline-block;
+        vertical-align: center;
+        padding-right: 25px;
+        width: 440px;
+        text-align:right;
+        font-size: 15pt;
+    }
+
+/*Intro Row*/
+div.intro-container{
+    display: flex;
+    width: 900px;
+    padding: 20px;
+    justify-content: center;
+}
+    div.intro-container img{
+        height: 252px;
+        width: auto;
+        border: 4px solid #c0c0c0;
+        vertical-align: bottom;
+    }
+    div.intro-container .about{
+        margin-left: 25px;
+        height: 260px;
+        overflow: auto;
+        width: 460px;
+        background-image: linear-gradient(to right, white, #daccd9);
+    }
+    div.about p{
+        margin: 10px;
+        text-align: justify;
+    }
+
+
+/*titles*/
+    .title{
+        height: 22px;
+        padding: 6px;
+        padding-left: 20px;
+        font-weight: bold;
+        color: white;
+        background-image: linear-gradient(#aeaeb2, rgb(100, 100, 100),#aeaeb2);
+        text-align: left;
+        font-size: 15pt;
+    }
+    .tech-title{
+        font-size: 12pt;
+    }
+
+/* More Info Columns*/
+div.more-info-container{
+    display: flex;
+    height: 600px;
+    padding: 0px 20px 20px 20px;
+    justify-content: center;
+}
+
+div.more-info{
+    display: inline-block;
+    background-color: grey;
+    width: 275px;
+    background-image: linear-gradient(to right, white, #daccd9);
+    text-align: center;
+}
+    div.more-info img{
+        width: 275px;
+    }
+    div.more-info p{
+        height: 200px;
+        margin: 10px;
+        overflow: auto;
+        text-align: justify;
+    }
+    /* div.tech-icon-container{
+        display: flex;
+        width: 255px;
+        margin: 10px;
+        height: 100px;
+        background-color: teal;
+        text-align: justify;
+    }
+    div.tech-icon-container img{
+        width: 50px;
+        height: auto;
+    } */
+
+    table{
+        margin: 10px 10px 0px 10px;
+    }
+        td{
+            display: inline-block;
+            width: 50px;
+            height: 40px;
+            padding-bottom: 10px;
+            text-align: center;
+            /* vertical-align: bottom; */
+        }
+        table tr td img{
+            max-width: 40px;
+            height: 40px;
+    }
+    .more-info a{
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        font-size: 10pt;
+        background-color: #407d61;
+        padding: 4px;
+        border: 1px solid black;
+        border-radius: 8px;
+        box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.81);
+    }
+
+    .la-mode{
+        margin: 0px 10px 0px 5px;
+    }
+    .family-contacts{
+        margin: 0px 20px 0px 20px;
+    }
+    .fiveeleven{
+        margin: 0px 5px 0px 10px;
+    }
+
+/* Footer */
+footer{
+    background-color: #f5f5f5;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+footer p{
+    margin-bottom: 20px;
+}
+/* ul{
+    display: inline-block;
+    max-width: 300px;
+} */
+li{
+    display: inline-block;
+    font-style: italic;
+    color: black;
+}
+    li img{
+        display: inline-block;
+        vertical-align: middle;
+        max-height: 20px;
+    }
+    li a{
+        display: inline-block;
+    }
